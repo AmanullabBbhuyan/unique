@@ -1,0 +1,498 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Maven Pro', sans-serif;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+    font-family: 'Maven Pro', sans-serif;
+}
+a a:hover{
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;;
+}
+/* header section starte here */
+.header-section{
+    width: 100%;
+    background:url("../img/man.png") center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header-section .bg-light{
+    background: transparent !important;
+}
+.header-section .navbar-brand img{
+    width: 120px ;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active{
+    color:#501ee5;
+    background: url("../img/ad.png") center bottom no-repeat;
+    background-size: contain;
+ 
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin: 0px 10px 0px 0px;
+    text-transform: capitalize;
+}
+.header-section .navbar-light .navbar-nav .nav-link:focus, .header-section .navbar-light .navbar-nav .nav-link:hover{
+    color: #501ee5;
+    background: url("../img/ad.png") center bottom no-repeat;
+    background-size: contain;
+}
+.header-section .btn-outline-success {
+    color: #fff;
+    border: 1px solid #501ee5;
+    background: linear-gradient(to right,#511de5, #0c8afb);
+    padding: 6px 45px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 15px;
+    transition: 5s ease-in-out;
+}
+.header-section .btn-outline-success:hover ,.header-section .btn-outline-success:focus{
+    border: 1px solid #501ee5;
+    background: linear-gradient(to right,#0c8afb, #511de5);
+    color: #fff;
+}
+.banner{
+    width: 100%;
+    padding: 110px 0px;
+    text-align: right;
+}
+.banner h1{
+   font-size: 73px;
+   font-weight: 700;
+   line-height: 83px;
+   color: #000;
+   margin-bottom: 25px;
+   padding: 80px 0px 0px;
+}
+.banner h1 span{
+    color:#511de5 ;
+}
+.banner .btn-info{
+    color: #000;
+    border: 1px solid #f2f2f2;
+    background:#f2f2f2;
+    padding: 10px 45px;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 5s ease-in;
+    -webkit-transition: 5s;
+    -o-transition:5s;
+    -ms-transition:5s;
+}
+.banner .btn-info:hover, .banner .btn-info:focus{
+    border: 1px solid #000;
+    background:transparent;
+    color: #000;
+}
+.banner .btn-info i{
+    margin-left: 15px;
+}
+/* highlight-section start */
+.highlight{
+    width: 100%;
+    padding: 40px;
+    background: url("../img/highlight.png") center top no-repeat;
+    background-size: cover;
+}
+.highlight h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+}
+.inner-img{
+    width: 100%;
+    position: relative;
+}
+.inner-img img{
+    position: absolute;
+    top: -80px;
+    left: 187px;
+    width: 20%;
+}
+/* highlight-section end */
+/* fetures coding start here */
+.fetures{
+    width: 100%;
+    padding: 80px 0px;
+}
+.fetures .fetures-inner{
+    width: 100%;
+    padding: 90px 70px;
+    background: url("../img/fetures.png") center bottom no-repeat;
+    background-size: cover;
+    box-shadow: 1px 4px 10px #ccc;
+}
+.fetures-inner h2{
+    width: 50%;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #000;
+    margin: 0px 0px 25px;
+}
+.fetures-inner p{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    margin: 0px 0px 25px;
+}
+.fetures-inner h5{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+    text-transform: capitalize;
+    margin: 70px 0px 125px;
+}
+.fetures-inner h5 span{
+    font-size: 90px;
+    font-weight: 700;
+    color: #000;
+    margin: 25px;
+    background:linear-gradient(to right,#511de5, #0c8afb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.inner-logo img{
+    width: 95%;
+    padding: 80px 0px 0px 75px;
+    
+}
+/* fetures coding end here */
+
+/* intro quate section coding staret here */
+.intro{
+    width: 100%;
+    background: url("../img/ey.png") center top no-repeat;
+    background-size: cover;
+    padding: 190px 0px;
+}
+.quate{
+    width: 100%;
+    padding: 165px 0px;
+    background: url("../img/qt.png") center center no-repeat;
+    background-size: contain;
+}
+.inner-qoute{
+    width: 42%;
+    margin: 30px auto;
+}
+.inner-qoute p{
+    font-size: 14px;
+    font-weight: 600px;
+    line-height: 24px;
+    color: #fff;
+}
+.inner-qoute h6{
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 26px;
+    color: #fff;
+}
+.aman{
+    width: 100%;
+    text-align: left;
+}
+.aman h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #000;
+    margin-bottom: 25px;
+    padding: 110px 40px 0px;
+ }
+ .aman .btn-info{
+     color: #000;
+     border: 1px solid #f2f2f2;
+     background:#f2f2f2;
+     padding: 10px 45px;
+     margin-left: 40px;
+     margin-top: 25px;
+     border-radius: 30px;
+     font-size: 14px;
+     line-height: 24px;
+     font-weight: 700;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     transition: 5s ease-in;
+     -webkit-transition: 5s;
+     -o-transition:5s;
+     -ms-transition:5s;
+ }
+ .aman .btn-info:hover, .aman .btn-info:focus{
+     border: 1px solid #000;
+     background:transparent;
+     color: #000;
+ }
+ .aman .btn-info i{
+     margin-left: 15px;
+ }
+
+/* intro quate section coding end here */
+/* effciency  secction coding tarte here */
+.effciency{
+    width: 100%;
+    padding: 80px 0px;
+    bottom: 1px solid #000;
+}
+.inner-effciency{
+    width: 100%;
+    padding: 30px 0px;
+}
+.inner-effciency h2{
+    width: 90%;
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #000;
+}
+.inner-effciency p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #000;
+}
+.inner-effciency h6{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #000;
+}
+.inner-effciency h6 span{
+    margin-right: 25px;
+    line-height: 50px;
+}
+.inner-effciency .btn-info{
+    color: #fff;
+    border: 1px solid #501ee5;
+    background: linear-gradient(to right,#511de5, #0c8afb);
+    padding: 6px 20px;
+    margin-top: 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 5s ease-in;
+    -webkit-transition: 5s;
+    -o-transition:5s;
+    -ms-transition:5s;
+}
+.inner-effciency .btn-info:hover, .inner-effciencyan .btn-info:focus{
+    border: 1px solid #501ee5;
+    background: linear-gradient(to right,#0c8afb, #511de5);
+    color: #fff;
+}
+.inner-effciency .btn-info i{
+    margin-left: 15px;
+    font-size: 25px;
+}
+.aman-imges{
+    width: 100%;
+    text-align: left;
+}
+.aman-imges img{
+    width: 90%;
+}
+/* effciency  secction coding tarte here */
+/* desinge  secction coding tarte here */
+.desing{
+    width: 100%;
+    padding: 100px 0px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.desinge-title{
+    width: 100%;
+    text-align: center;
+}
+.desinge-title h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #000;
+    margin-bottom: 35px;
+}
+.desinge-title p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+.inner-desiner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.desinger-img{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.desinger-title h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #000;
+    margin-top: 31px;
+}
+.desinger-title p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000;
+}
+/* desinge  secction coding end here */
+/* Quote  secction  coding starte here */
+.quote-section{
+    width: 100%;
+    padding: 90px 0px;
+}
+.qoute-title{
+    width: 100%;
+    text-align: center;
+}
+.qoute-title h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 80px;
+}
+.qoute-unfusd{
+    width: 100%;
+    background: url("../img/qlb.png");
+    background-size: cover;
+    padding: 110px 0px 0px 30px;
+    text-align: center;
+    box-shadow: 2px 4px 8px #eee;
+    border: 1px solid #e9e9e9;
+}
+.qoute-titel1 h6{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 15px;
+    padding: 30px 0px;
+    color: #999;
+}
+.qoute-img{
+    width: 100%;
+    margin-top: 110px;
+}
+.qoute-img img{
+    margin-left: 40px;
+}
+.qoute-tilte2{
+    width: 100%;
+    padding: 20px 0px;
+}
+.qoute-tilte2 h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #999;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.qoute-tilte2 p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #999;
+    margin-left: 35px;
+}
+.qoute-unfusd h6:hover, .qoute-unfusd h6:focus{
+    background:linear-gradient(to right,#511de5, #0c8afb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Quote  secction  coding end here */
+/* faq  secction  coding start here */
+.faq-section{
+    width: 100%;
+    padding: 80px 0px 50px;
+}
+.faq-section .faq{
+    width: 90%;
+    background-size: cover;
+    padding: 90px 0px 84px;
+    box-shadow: 4px 8px 15px 4px rgba(158,158,158,0.92);
+    background-color: #fff;
+    margin-left: 92px;
+}
+.faq-section .faq .faq-title h1{
+    width: 70%;
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+}
+.faq-section .faq .faq-title h3{
+    width: 55%;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000fff;
+    margin: 115px 0px 15px 95px;
+}
+.faq-section .faq .faq-title p{
+    width: 74%;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px 0px 40px 95px;
+}
+.faq-section .faq .faq-title ul{
+    display: block;
+    padding: 0;
+    margin: 0px 0px 0px 95px;
+}
+.faq-section .faq .faq-title ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+}
+/* faq  secction  coding end here */
